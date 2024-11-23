@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'AdminLTE 3',
+    'title' => 'Forboys Production ',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Forboys</b>',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
@@ -311,6 +311,7 @@ return [
         ],
 
         // Sidebar items:
+        /*
         [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
@@ -338,42 +339,44 @@ return [
             'url' => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
+        */
         [
-            'text' => 'multilevel',
+            'text' => 'Laporan Monitoring',
             'icon' => 'fas fa-fw fa-share',
             'submenu' => [
                 [
-                    'text' => 'level_one',
-                    'url' => '#',
+                    'text' => 'laporan_monitoring_kirim_setor',
+                    'url' => '/laporan_monitoring_ks',
+                    'icon' => 'fas fa-fw fa-file',
                 ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                        ],
-                        [
-                            'text' => 'level_two',
-                            'url' => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url' => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url' => '#',
-                ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                //     'submenu' => [
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //         ],
+                //         [
+                //             'text' => 'level_two',
+                //             'url' => '#',
+                //             'submenu' => [
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //                 [
+                //                     'text' => 'level_three',
+                //                     'url' => '#',
+                //                 ],
+                //             ],
+                //         ],
+                //     ],
+                // ],
+                // [
+                //     'text' => 'level_one',
+                //     'url' => '#',
+                // ],
             ],
         ],
         ['header' => 'labels'],

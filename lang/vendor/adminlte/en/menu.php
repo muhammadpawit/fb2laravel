@@ -16,4 +16,6 @@ return [
     'important' => 'Important',
     'warning' => 'Warning',
     'information' => 'Information',
+    'laporan_monitoring_kirim_setor' => 'Monitoring Kirim Setor',
+    'url_laporan_monitoring_kirim_setor' => 'Monitoring/kirimsetor',
 ];
